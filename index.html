@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>StartUp</title>
+
+    <link rel="icon" href="favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonts -->
+    <!-- Roboto 300-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Play 700 -->
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+    <!-- Geometria in css "normilizer.css" -->
+
+    <link rel="stylesheet" href="src/styles/normilizer.css">
+    <!-- Styles for phone (320 - 640px) -->
+    <link rel="stylesheet" href="src/styles/phone.css">
+    <!-- Styles for tablet (640 - 1100px) -->
+    <link rel="stylesheet" href="src/styles/tablet.css">
+    <!-- Styles for pc (1100 - ...px) -->
+    <link rel="stylesheet" href="src/styles/pc.css">
+
+</head>
+<body>
+    <div class="body-wrapper">
+        <header class="head-bar">
+            <div class="head-logo">
+                <div class="logo-wrapper">
+                    <img src="src/images/logo.svg" alt="logo" class="logo-image">
+                </div>
+                <div class="head-text">
+                    <p class="head-text-title">Название</p>
+                    <p class="head-text-tagline">И какой-нибудь лозунг</p>
+                </div>
+            </div>
+
+            <div class="head-menu">
+                <div class="head-menu-list">
+                    <div class="head-menu-item">ГЛАВНАЯ</div>
+                    <div class="head-menu-item">ПОРТФОЛИО</div>
+                    <div class="head-menu-item">О НАС</div>
+                    <div class="head-menu-item">ГЕОГРАФИЯ</div>
+                    <div class="head-menu-item">КОНТАКТЫ</div>
+                </div>
+                
+                <div class="humburger-button">
+                    <img src="src/images/humburger.svg" alt="menu">
+                </div>
+            </div>
+
+            <div class="head-phone">
+                <p class="head-phone-image-wrapper">
+                    <img src="src/images/head-phone.svg" alt="" class="head-phone-image">
+                </p>
+                <p class="head-phone-text">
+                    8(902)272-93-14
+                </p>
+            </div>
+        </header>
+
+        <div class="content-wrapper">
+            <p class="first-body-text">
+                Услуги по строительству<br> и ремонту <span class="first-body-text-tablet">железнодорожных</span><span class="first-body-text-phone">Ж/Д</span> путей
+            </p>
+            <p class="second-body-text">
+                <span>
+                    Компания проводит строительные и ремонтные работы на территории более чем 20 субъектов Российской Федерации
+                </span>
+            </p>
+
+            <form action="" class="first-form">
+                <p class="first-form-title">
+                    Оставьте заявку<br> на <span>бесплатную</span> консультацию
+                </p>
+
+                <div class="first-form-input-wrapper">
+                    <label for="firstFormInputName" class="first-form-input-label">Имя</label>
+                    <input type="text" id="firstFormInputName" class="first-form-input" placeholder="Михаил">
+                </div>
+
+                <div class="first-form-input-wrapper">
+                    <label for="firstFormInputNumber" class="first-form-input-label">Телефон</label>
+                    <input type="text" id="firstFormInputNumber" class="first-form-input" placeholder="8 (800) 535 35 35">
+                </div>
+
+                <div class="first-form-input-wrapper">
+                    <label for="firstFormInputMail" class="first-form-input-label">Почта</label>
+                    <input type="text" id="firstFormInputMail" class="first-form-input" placeholder="company@mail.com">
+                </div>
+
+                <button class="send-button">ОТПРАВИТЬ</button>
+            </form>
+        </div>
+
+        <div class="geo-map-wrapper">
+
+            <div class="geo-wrapper">
+                <div class="geo-title">
+                    География работ
+                </div>
+                <div class="geo-subtitle">
+                    ООО «Путьремстрой» реализует проекты на всей территории Российской Федерации.
+                </div>
+                <div class="geo-text">
+                    Компания проводит строительные и ремонтные работы на территории более чем 20 субъектов Российской Федерации, постоянно расширяя географию присутствия на всю территорию страны. Работа компании ведется как в крупных городах областного значения, так и в небольших населенных пунктах. Заказчиками могут быть региональные или федеральные компании, крупные компании из разных сфер деятельности,заинтересованные в осуществлении транспортных проектов.
+                </div>
+            </div>
+            
+            <div class="russian-map-wrapper">
+                <img src="src/images/russian-map.png" alt="map" class="russian-map">
+            </div>
+    
+        </div>
+
+        <div class="portfolio-block">
+            <p class="portfolio-title">Наше портфолио</p>
+            
+            <div class="portfolio-block-flex">
+                <img class="card-photo-pc" src="src/images/card-photo-pc.png" alt="card-photo-pc">
+                <div class="portfolio-card">
+                    <img class="card-photo-phone" src="src/images/card-photo.png" alt="card photo">
+                    <img class="card-photo-tablet" src="src/images/card-photo-tablet.png" alt="card photo">
+
+                    <div class="card-content">
+                        <p class="card-content-title">Ремонт эстакад</p>
+                        <p class="card-content-text">
+                            Капитальный ремонт и еще че нибудь напишите а то слишком мало выходит
+                        </p>
+
+                        <div class="card-content-list">
+                            <p class="card-content-list-title">Проделанные работы:</p>
+                            
+                            <div class="card-content-list-items">
+                                <div class="card-content-list-item">
+                                    <div class="img-wrapper">
+                                        <img src="src/images/check.svg" alt="check">
+                                    </div>
+                                    <p>Выкопали ямы (незнай зачем)</p>
+                                </div>
+        
+                                <div class="card-content-list-item">
+                                    <div class="img-wrapper">
+                                        <img src="src/images/check.svg" alt="check">
+                                    </div>
+                                    <p>Рельсы рельсы, шпалы шпалы</p>
+                                </div>
+        
+                                <div class="card-content-list-item">
+                                    <div class="img-wrapper">
+                                        <img src="src/images/check.svg" alt="check">
+                                    </div>
+                                    <p>Положили рельсы</p>
+                                </div>
+        
+                                <div class="card-content-list-item">
+                                    <div class="img-wrapper">
+                                        <img src="src/images/check.svg" alt="check">
+                                    </div>
+                                    <p>Ехал поезд запоздалый</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-button">
+                            ОСТАВИТЬ ЗАЯВКУ
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-buttons">
+                    <img src="src/images/button1.png" alt="" class="portfolio-button">
+                    <img src="src/images/button2.png" alt="" class="portfolio-button">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="advantages-wrapper">
+            <div class="advantages-block">
+                <p class="advantages-title">Преимущества работы с нами</p>
+
+                <div class="advantage-card">
+                    <div class="img-wrapper">
+                        <img src="src/images/money.svg" alt="advantage-img">
+                        <img src="src/images/ellipse.svg" alt="ellipse" class="ellipse">
+                    </div>
+                    <p class="advantage-title">Экономия стредств</p>
+                    <p class="advantage-text">Специалисты нашей компании грамотно рассчитываю объем работ и количество затрачиваемых материалов, что позволяет исключить дополнительные расходы на заключительных этапах.</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="img-wrapper">
+                        <img src="src/images/eject.svg" alt="advantage-img">
+                        <img src="src/images/ellipse.svg" alt="ellipse" class="ellipse">
+                    </div>
+                    <p class="advantage-title">Оперативность</p>
+                    <p class="advantage-text">Один из ключевых факторов нашей работы. Скорость реагирования — залог бесперебойной работы железнодорожного транспорта.</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="img-wrapper">
+                        <img src="src/images/light-bulb.svg" alt="advantage-img">
+                        <img src="src/images/ellipse.svg" alt="ellipse" class="ellipse">
+                    </div>
+                    <p class="advantage-title">Большой опыт</p>
+                    <p class="advantage-text">За 2020 год наша компания уложила более 5 километров новых железнодорожных путей и отремонтировала более 30 километров.</p>
+                </div>
+
+
+                <div class="advantage-card">
+                    <div class="img-wrapper">
+                        <img src="src/images/thumb-us.svg" alt="advantage-img">
+                        <img src="src/images/ellipse.svg" alt="ellipse" class="ellipse">
+                    </div>
+                    <p class="advantage-title">Высокий сервис</p>
+                    <p class="advantage-text">Наша компания открыта для поиска оптимальных решений с целью достижения поставленных клиентами задач.</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="img-wrapper">
+                        <img src="src/images/wallet.svg" alt="advantage-img">
+                        <img src="src/images/ellipse.svg" alt="ellipse" class="ellipse">
+                    </div>
+                    <p class="advantage-title">Удобная оплата</p>
+                    <p class="advantage-text">Постоянный поставщик, сертифицированные материалы. Все сотрудники имеют высокую квалификацию. Работы выполняются современными специализированными инструментами и оборудованием.</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="img-wrapper">
+                        <img src="src/images/circle-check.svg" alt="advantage-img">
+                        <img src="src/images/ellipse.svg" alt="ellipse" class="ellipse">
+                    </div>
+                    <p class="advantage-title">Качество</p>
+                    <p class="advantage-text">Для постоянных клиентов существует возможность оплаты в рассрочку. Предлагаем поэтапную оплату или работаем с предоплатой менее 40%.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-us">
+            <div class="about-us-content">
+                <p class="about-us-title">О нашей компании</p>
+                <div class="about-us-card">
+                    <p class="about-us-card-title">Компания ООО "Название"</p>
+                    <p class="about-us-card-text">
+                        Оказывает широкий спектр услуг по строительству и ремонту железнодорожных путей, Ремонт железнодорожных тупиков, стрелочных переводов, переездов. Опытные сотрудники, наличие необходимого оборудования позволяет в кратчайшие сроки выполнить работы любой сложности качественно и в кратчайшие сроки. Гибкая ценовая политика, наличие СРО. Подбор материалов от новых до Б/У от партнёров.
+                    </p>
+                    <div class="about-us-card-docs">
+                        <img src="src/images/doc-page-2.png" alt="" class="doc1">
+                        <img src="src/images/doc-page-1.png" alt="" class="doc2">
+                    </div>
+                </div>
+                <img src="src/images/about-us-back-tablet.png" alt="" class="about-us-pc">
+            </div>
+        </div>
+
+        <div class="pre-contact-filler">
+
+        </div>
+
+        <div class="contact-form-footer-wrapper">
+
+            <div class="contact-block">
+                <p class="contact-title">Контакты</p>
+                
+                <div class="contact-table">
+                    
+                    <div class="contact-row">
+                        <p class="contact-table-title">Телефон:</p>
+                        <div class="contact-item">
+                            <p class="contact-subitem">8(902)272-93-14</p>
+                            <p>8(982)178-03-07</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-row">
+                        <p class="contact-table-title">E-mail:</p>
+                        <p class="contact-item">nasvaniye@mail.ru</p>
+                    </div>
+
+                    <div class="contact-row">
+                        <p class="contact-table-title">Адрес:</p>
+                        <p class="contact-item contact-item-adress">г. Екатеринбург, ул.  Колмогорова, дом 67</p>
+                    </div>
+
+                </div>
+
+                <p class="contact-name">ООО “Название”</p>
+
+                <div class="contact-icons">
+                    <div class="contact-icon-wrapper">
+                        <img src="src/images/contact-whats.svg" alt="WhatsUp" class="contact-icon">
+                    </div>
+                    <div class="contact-icon-wrapper">
+                        <img src="src/images/contact-phone.svg" alt="Phone" class="contact-icon">
+                    </div>
+                    <div class="contact-icon-wrapper">
+                        <img src="src/images/contact-mail.svg" alt="Mail" class="contact-icon">
+                    </div>
+                </div>
+            </div>
+
+            <div class="second-form-wrapper">
+                <form action="" class="second-form">
+                    <p class="second-form-title">
+                        Остались вопросы?
+                    </p>
+                    <div class="second-form-input-wrapper-flex">
+                        <div class="second-form-input-wrapper">
+                            <label for="secondFormInputName" class="second-form-input-label">Имя</label>
+                            <input type="text" id="secondFormInputName" class="second-form-input" placeholder="Михаил">
+                        </div>
+
+                        <div class="second-form-input-wrapper">
+                            <label for="secondFormInputNumber" class="second-form-input-label">Телефон</label>
+                            <input type="text" id="secondFormInputNumber" class="second-form-input" placeholder="8 (800) 535 35 35">
+                        </div>
+
+                        <div class="second-form-input-wrapper">
+                            <label for="secondFormInputMail" class="second-form-input-label">Почта</label>
+                            <input type="text" id="secondFormInputMail" class="second-form-input" placeholder="company@mail.com">
+                        </div>
+                    </div>
+
+                    <div class="second-form-input-wrapper">
+                        <label for="secondFormInputComm" class="second-form-input-label">Комментарий</label>
+                        <textarea type="text" id="secondFormInputComm" class="second-form-input" placeholder="Напишите ваш вопрос..."></textarea>
+                    </div>
+
+                    <button class="send-button second-form-button">ОТПРАВИТЬ</button>
+                
+                    <div class="second-form-checkbox-wrapper">
+                        <input type="checkbox" id="secondFormCheckBox" class="second-form-checkbox">
+                        <label for="secondFormCheckBox" class="second-form-checkbox-label">
+                            Даю свое согласие <a href="">с политикой конфиденциальности</a>
+                        </label>
+                    </div>
+                    
+                </form>
+            </div>
+
+            <div class="footer-block">
+                <div class="footer-content">
+                    <p class="footer-title">Все права защищены</p>
+                    <div class="footer-author">
+                        <div class="footer-author-logo">
+                            <img src="src/images/start-up-logo.svg" alt="">
+                        </div>
+                        <a href="" class="footer-author-text">
+                            Разработка сайта<br> - студия “ТвойСтартап”
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

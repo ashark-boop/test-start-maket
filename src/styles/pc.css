@@ -1,0 +1,372 @@
+@media (min-width:1100px) {
+    /* Header */
+
+    .head-bar{
+        height: 90px;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    .head-menu{
+        order: 2;
+    }
+
+    .humburger-button{
+        display: none;
+    }
+
+    .head-menu-list{
+        display: flex;
+        flex-direction: row;
+
+        height: 90px;
+    }
+    .head-menu-item{
+        font-family: 'Geometria-Light';
+        font-size: 12px;
+        line-height: 15px;
+
+        letter-spacing: 0.05em;
+
+        padding: 37px 18px 38px;
+        box-sizing: border-box;
+    }
+
+    .head-menu-item:hover{
+        color: white;
+        background-color: #4169C1;
+    }
+
+    .head-phone{
+        order: 3
+    }
+
+
+    /* Content */
+
+    .content-wrapper{
+        padding: 109px 40px 69px;
+        margin: 0 auto;
+
+        background: url('../images/content-back.png') no-repeat;
+
+        background-size: 100%
+    }
+
+    .first-body-text{
+        max-width: 850px;
+        margin: 0 auto 7px;
+
+        font-size: 44px;
+        line-height: 55px;
+        letter-spacing: 0.015em;
+
+        height: 110px;
+    }
+
+    .first-body-text > br{
+        display: inherit;
+    }
+
+    .second-body-text > span{
+        width: 585px;
+        max-width: 585px;
+    }
+
+    .second-body-text{
+        height: 56px;
+        margin: 0 auto 39px;
+    }
+
+    /* First form */
+    .first-form{
+        padding: 34px 72px 47px 73px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-end;
+
+        background: url('../images/rails.png') no-repeat center, #F4F8FF;
+        background-size: calc(100% + 145px) calc(100% + 81px);
+
+        max-width: 1200px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    .first-form-title > br {
+        display: none;
+    }
+
+    .first-form-title{
+        margin-bottom: 25px;
+        flex-basis: 100%;
+    }
+
+    .first-form-input-wrapper{
+        flex-basis: 23%;
+        margin: 0 20px 5px 0;
+        max-width: 270px;
+    }
+
+    .first-form > .send-button{
+        margin-left: 10px;
+        flex-basis: 23%;
+        max-width: 235px;
+    }
+
+    /* Geo + Map */
+
+    .geo-map-wrapper{
+        display: flex;
+        flex-direction: row;
+        
+        margin: 0 auto;
+
+        padding: 94px 40px 84px;
+        max-width: 1280px;
+        box-sizing: border-box;
+    }
+
+    .geo-wrapper{
+        padding: 0;
+        width: 40%;
+    }
+
+    .russian-map-wrapper{
+        padding: 0;
+    }
+
+    .geo-title{
+        font-size: 35px;
+        line-height: 44px;
+
+        margin-bottom: 23px;
+    }
+
+    .geo-subtitle{
+        font-size: 22px;
+        line-height: 150.52%;
+    
+        margin-bottom: 19px;
+    }
+
+    /* Portfolio */
+
+    .portfolio-block{
+        padding: 70px 40px 51px;
+    }
+
+    .portfolio-block-flex{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        max-width: 1200px;
+
+        margin: 0 auto;
+    }
+
+    .portfolio-title{
+        font-size: 35px;
+        line-height: 44px;
+
+        margin-bottom: 38px;
+    }
+
+    .card-photo-tablet{
+        display: none;
+    }
+    .card-photo-pc{
+        display: inherit;
+        width: 34%;       
+    }
+
+    .portfolio-card{
+        width: 53%;
+
+        padding: 40px 30px 83px 32px;
+        margin: 0 0 21px;
+    }
+
+    .card-content{
+        padding: 0;
+    }
+
+    .portfolio-buttons{
+        position: absolute;
+        height: 58px;
+        top: 45%;
+
+        width: 100%;
+    }
+
+    .card-content-text{
+        max-width: 480px;
+    }
+
+
+    /* Advantages */
+
+    .advantages-block{
+        max-width: 1280px;
+        padding: 79px 40px 80px;
+        margin: 0 auto;
+    }
+
+    .advantage-card{
+        flex-basis: 30%;
+        margin:0 30px 30px 0;
+    }
+
+    .advantage-card:nth-child(3 + n){
+        margin:0 30px 0 0;
+    }
+
+    .advantage-card:nth-child(3n){
+        margin:0 0 30px 0;
+    }
+
+    /* About-us */
+    .about-us{
+        padding: 0;
+        background: #F4F8FF;
+    }
+
+    .about-us-content{
+        max-width: 1200px;
+        padding: 81px 40px 144px;
+
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about-us-title{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .about-us-card{
+        width: 48.75%;
+        box-sizing: border-box;
+        z-index: 10;
+    }
+
+    .about-us-pc{
+        display: inline-block;
+        width: 65%;
+        margin-left: -20%;
+        z-index: 9;
+    }
+
+    /* Filler */
+    .pre-contact-filler{
+        display: none;
+    }
+
+
+    /* Contacts */
+    .contact-form-footer-wrapper{
+        background-color: #4169C1;
+    }
+
+    .contact-block{
+        padding: 61px 40px 62px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .contact-title{
+        margin-bottom: 24px;
+    }
+
+    .contact-table{
+        margin-bottom: 28px;
+    }
+
+    .contact-name{
+        margin-bottom: 27px
+    }
+
+    /* Second Form */
+    .second-form-wrapper{
+        top: -34px;
+        right: calc((100% - 1200px) / 2 + 72px);
+        max-width: 718px;
+        width: 60%;
+    }
+
+    .second-form{
+        padding: 40px 57px 43px 76px;
+
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .second-form-title{
+        width: 100%;
+    }
+
+    .second-form-input-wrapper-flex{
+        width: calc(50% - 15px);
+        margin-right: 30px;
+    }
+
+    #secondFormInputComm{
+        height: auto;
+        max-width: none;
+        display: block;
+        min-width: 100%;
+        height: 100%;
+    }
+
+    .second-form > .second-form-input-wrapper{
+        width: calc(50% - 15px);
+    }
+
+    .second-form-button{
+        order: 3;
+        width: calc(50% - 15px);
+    }
+
+    .second-form-checkbox-wrapper{
+        width: calc(50% - 15px);
+        margin-right: 30px;
+    }
+
+    /* Footer */
+    .footer-content{
+        max-width: 1200px;
+
+        padding: 38px 40px 37px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .footer-block{
+        padding: 0;
+    }
+
+    .footer-title{
+        margin-bottom: 0;
+    }
+
+    .footer-author-text> br{
+        display:  none;
+    }
+}

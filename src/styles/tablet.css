@@ -1,0 +1,332 @@
+@media (min-width: 640px) {
+    /* Header styles */
+    .head-bar{
+        padding: 15px 40px 10px;
+    }
+
+    .head-phone{
+        display: inline-block;
+        font-family: 'Geometria';
+        font-size: 22px;
+        line-height: 28px;
+
+        color: #0B0B0B;
+
+        margin-right: 50px;
+
+        order: 2;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head-phone-image-wrapper{
+        margin-right: 10px;
+
+        height: 32px;
+        width: 32px;
+    }
+
+    .head-logo{
+        order: 1;
+    }
+
+    .head-menu{
+        order: 3;
+    }
+
+    /* Content styles */
+    .content-wrapper{
+        padding: 76px 40px 50px;
+        background: url('../images/background-phone.png') no-repeat;
+        background-size: 100% 687px;
+    }
+
+    .first-body-text{
+        font-weight: 900;
+        font-size: 38px;
+        line-height: 48px;
+        letter-spacing: 0.015em;
+
+        margin-bottom: 6px;
+    }
+
+    .first-body-text-phone{
+        display: none;
+    }
+
+    .first-body-text-tablet{
+        display: inline-block;
+    }
+
+    .second-body-text{
+        font-size: 18px;
+        line-height: 156.46%;
+        
+        margin-bottom: 22px;
+    }
+
+    .second-body-text > span{
+        display: inline-block;
+        max-width: 460px;
+    }
+
+    /* First form */
+    .first-form{
+        padding: 38px 59px 53px 58px;
+    }
+
+    .first-form-title{
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-bottom: 14px;
+    }
+
+    .first-form-title > br{
+        display: inherit;
+    }
+
+    /* Geo Block */
+
+    .geo-wrapper{
+        padding: 20px 175px 10px 41px;
+        background-color: white;
+    }
+
+    .geo-title{
+        font-size: 30px;
+        line-height: 38px;  
+
+        margin-bottom: 14px;
+    }
+
+    .geo-subtitle{
+        font-size: 20px;
+        line-height: 150.52%;
+    
+        margin-bottom: 8px;
+    }
+
+    .geo-text{
+        font-size: 16px;
+        line-height: 156.46%;
+    }
+
+    /* Map */
+    .russian-map-wrapper{
+        box-sizing: border-box;
+        padding: 10px 40px 38px 16px;
+    }
+
+    .russian-map{
+        margin-bottom: 0;
+    }
+
+    /* Portfolio */
+
+    .portfolio-block{
+        padding: 59px 40px 36px;
+    }
+
+    .portfolio-title{
+        font-size: 30px;
+        line-height: 38px;
+    
+        margin-bottom: 51px;
+    }
+
+    .portfolio-card{
+        margin-bottom: 40px;
+    }
+
+    .card-photo-phone{
+        display: none;
+    }
+    .card-photo-tablet{
+        display: inherit;
+        width: 100%;
+    }
+
+    .card-content{
+        box-sizing: border-box;
+    
+        padding: 43px 60px 52px;
+    }
+
+    .card-content-title{
+        font-size: 22px;
+        line-height: 28px;
+ 
+        margin-bottom: 9px;
+    }
+
+    .card-content-text{
+        font-size: 16px;
+        line-height: 156.46%;
+
+        margin-bottom: 19px;
+    }
+
+    .card-content-list{
+        margin-bottom: 8px;
+    }
+
+    .card-content-list-title{
+        font-size: 18px;
+        line-height: 23px;
+    
+        margin-bottom: 17px;
+    }
+
+    .card-content-list-item{
+        margin-bottom: 11px;
+        flex-basis: 49%
+    }
+
+    .card-content-list-items{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        justify-content: space-between
+    }
+
+    .card-button{
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0.04em;
+
+        padding: 23px 0 22px;
+    }
+
+    /* Advantages */
+
+    .advantages-block{
+        padding: 70px 62px 14px 40px;
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .advantages-title{
+        font-size: 30px;
+        line-height: 38px;
+
+        margin-bottom: 60px;
+    }
+
+    .advantage-card{
+        margin-bottom: 70px;
+        flex-basis: 45%;
+    }
+
+    .img-wrapper{
+        margin-bottom: 11px;
+    }
+
+    .advantage-title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    /* About Us */
+
+    .about-us{
+        padding: 70px 40px 242px;
+        background: url('../images/about-us-back-tablet.png') no-repeat bottom, #F4F8FF;
+        background-size: 100%
+    }
+
+    .about-us-title{
+        font-size: 30px;
+        line-height: 38px;
+
+        margin-bottom: 27px;
+    }
+
+    .about-us-card{
+        padding: 53px 120px 48px 59px;
+    }
+
+    .about-us-card-title{
+        margin-bottom: 14px;
+    }
+
+    .about-us-card-text{
+        font-size: 16px;
+
+        margin-bottom: 35px;
+    }
+
+    .doc1{
+        margin-right: 23px;
+    }
+
+    .doc1, .doc2{
+        width: 132px;
+    }
+
+    /* Filler */
+
+    .pre-contact-filler{
+        height: 70px;
+    }
+
+    /* Contact-fom-footer wrapper */
+
+    .contact-form-footer-wrapper{
+        position: relative;
+    }
+
+    /* Contacts-block */
+
+    .contact-block{
+        padding: 49px 400px 45px 40px;
+        background-color: #4169C1;
+    }
+
+    .contact-title{
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .contact-table{
+        margin-bottom: 77px;
+    }
+
+    .contact-name{
+        margin-bottom: 70px
+    }
+    
+    /* Second form */
+    .second-form-wrapper{
+        position: absolute;
+
+        background-color: none;
+
+        top: 38px;
+        right: 20px;
+        max-width: 360px;
+
+        background: none;
+    }
+
+    .second-form{
+        padding: 30px 42px 23px 40px;
+    }
+
+    /* Footer */
+
+    .footer-block{
+        padding: 38px 10px 42px 40px;
+    }
+
+    .footer-title{
+        margin-bottom: 46px;
+    }
+}
